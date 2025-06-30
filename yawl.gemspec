@@ -23,4 +23,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", ">= 7.2.2.1"
   spec.add_dependency "ahoy_matey", ">= 5.0.0"
+
+  spec.add_development_dependency "rspec-rails", "~> 5.1"
+  spec.add_development_dependency "standard", "~> 1.50"
 end
